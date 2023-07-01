@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-body" >
+    <div class="scrr">
+        <input type="text" id="value">
+
+    </div>
+    <div class="row" style="margin-left: 170px;margin-top: 35px;">
+    <button onclick="clearscreen()" class="specialbutton">AC</button>
+    </div>
+    <div class="row">
+        <button onclick="buttonclick(7)" class="button">7</button>
+        <button onclick="buttonclick(8)" class="button">8</button>
+        <button onclick="buttonclick(9)" class="button">9</button>
+        <button onclick="buttonclick('/')" class="button">/</button>
+    </div>
+    <div class="row">
+        <button onclick="buttonclick(4)" class="button">4</button>
+        <button onclick="buttonclick(5)" class="button">5</button>
+        <button onclick="buttonclick(6)" class="button">6</button>
+        <button onclick="buttonclick('*')" class="button">X</button>
+    </div>
+    <div class="row">
+        <button onclick="buttonclick(1)" class="button">1</button>
+        <button onclick="buttonclick(2)" class="button">2</button>
+        <button onclick="buttonclick(3)" class="button">3</button>
+        <button onclick="buttonclick('-')" class="button">-</button>
+    </div>
+    <div class="row">
+        <button onclick="buttonclick(0)" class="button">0</button>
+        <button onclick="buttonclick('.')" class="button">.</button>
+        <button onclick="buttonclick('+')" class="button">+</button>
+        <button onclick="equalclick()" class="button">=</button>
+    </div>
+  </div>
+  <script src="calc.js"></script>
+</body>
+</html>

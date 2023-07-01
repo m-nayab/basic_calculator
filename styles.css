@@ -1,0 +1,32 @@
+body{
+    padding:0;
+    margin:0;
+}
+.main-body{
+    width: 446px;
+    height: 662px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 21px;
+    padding-top: 40px;
+
+}
+#value{
+    width: 85%;
+    height: 75px;
+    background-color: rgb(194, 96, 96);
+    margin-left: 26px;
+    pointer-events: none;
+}
+.specialbutton{
+    width: 87px;
+    height: 60px;
+    margin: auto;
+
+}
+.button{
+    width: 87px;
+    height: 60px;
+    margin-top: 49px;
+    margin-left: 17px;
+}
