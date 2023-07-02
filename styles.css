@@ -17,11 +17,13 @@ body{
     background-color: rgb(194, 96, 96);
     margin-left: 26px;
     pointer-events: none;
+    font-size:30px;
 }
 .specialbutton{
     width: 87px;
     height: 60px;
     margin: auto;
+    font-size:30px;
 
 }
 .button{
@@ -29,4 +31,5 @@ body{
     height: 60px;
     margin-top: 49px;
     margin-left: 17px;
+    font-size:30px;
 }
